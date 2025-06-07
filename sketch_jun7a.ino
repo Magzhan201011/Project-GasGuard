@@ -4,11 +4,11 @@
 #include <UniversalTelegramBot.h> //Telegram ботты басқару
 #include <ArduinoJson.h>          //JSON деректерін өңдеу
 
-const char* ssid = "Beeline_2.4G_34a9"; //WiFi желісінің атауы
-const char* password = "ujA52FrK";      //WiFi құпия сөзі
+const char* ssid = "INSERT_YOUR_SSID"; //WiFi желісінің атауы
+const char* password = "INSERT_YOUR_WIFI_PASSWORD";      //WiFi құпия сөзі
 
-#define BOTtoken "7855415554:AAHpJhgPT1iFVHnH3jKqpcpAxYRrGkTN4aY" //Telegram бот токені
-#define CHAT_ID "2116228434" //Telegram чат ID
+#define BOTtoken "INSERT_YOUR_BOT_TOKEN" //Telegram бот токені
+#define CHAT_ID "INSERT_YOUR_TELEGRAM_ID" //Telegram чат ID
 
 uint8_t broadcastAddress[]={0x4C, 0xEB, 0xD6, 0x1F, 0xA5, 0x66}; //Деректер жіберілетін құрылғының MAC мекенжайы
 
